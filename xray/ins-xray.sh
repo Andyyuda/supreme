@@ -110,7 +110,8 @@ touch /etc/ssh/.ssh.db
 # set uuid
 uuid=$(cat /proc/sys/kernel/random/uuid)
 # xray config
-cat > /etc/xray/config.json << END  {
+cat > /etc/xray/config.json << END  
+{
   "log": {
     "loglevel": "warning",
     "error": "/var/log/xray/error.log",
