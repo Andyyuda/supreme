@@ -501,33 +501,58 @@ systemctl restart runn
 
 cd /usr/bin/
 # vmess
-wget -O add-ws "https://raw.githubusercontent.com/askykenza/Betaver/main/xray/add-ws.sh" && chmod +x add-ws
-wget -O trialvmess "https://raw.githubusercontent.com/askykenza/Betaver/main/xray/trialvmess.sh" && chmod +x trialvmess
-wget -O renew-ws "https://raw.githubusercontent.com/askykenza/Betaver/main/xray/renew-ws.sh" && chmod +x renew-ws
-wget -O del-ws "https://raw.githubusercontent.com/askykenza/Betaver/main/xray/del-ws.sh" && chmod +x del-ws
-wget -O cek-ws "https://raw.githubusercontent.com/askykenza/Betaver/main/xray/cek-ws.sh" && chmod +x cek-ws
-
+# vmess
+echo -e "${Green}[ INFO ]${NC} ${Green}Downloading Main Vmess${NC}"
+wget -O addws "https://raw.githubusercontent.com/Andyyuda/supreme/main/xray/addws.sh" && chmod +x addws
+wget -O trialws "https://raw.githubusercontent.com/Andyyuda/supreme/main/xray/trialws.sh" && chmod +x trialws
+wget -O renewws "https://raw.githubusercontent.com/Andyyuda/supreme/main/xray/renewws.sh" && chmod +x renewws
+wget -O delws "https://raw.githubusercontent.com/Andyyuda/supreme/main/xray/delws.sh" && chmod +x delws
+wget -O cek-ws "https://raw.githubusercontent.com/Andyyuda/supreme/main/xray/cek-ws.sh" && chmod +x cek-ws
+sleep 0.5
 # vless
-wget -O add-vless "https://raw.githubusercontent.com/askykenza/Betaver/main/xray/add-vless.sh" && chmod +x add-vless
-wget -O trialvless "https://raw.githubusercontent.com/askykenza/Betaver/main/xray/trialvless.sh" && chmod +x trialvless
-wget -O renew-vless "https://raw.githubusercontent.com/askykenza/Betaver/main/xray/renew-vless.sh" && chmod +x renew-vless
-wget -O del-vless "https://raw.githubusercontent.com/askykenza/Betaver/main/xray/del-vless.sh" && chmod +x del-vless
-wget -O cek-vless "https://raw.githubusercontent.com/askykenza/Betaver/main/xray/cek-vless.sh" && chmod +x cek-vless
-
+echo -e "${Green}[ INFO ]${NC} ${Green}Downloading Main Vless${NC}"
+wget -O add-vless "https://raw.githubusercontent.com/Andyyuda/supreme/main/xray/add-vless.sh" && chmod +x add-vless
+wget -O trialvless "https://raw.githubusercontent.com/Andyyuda/supreme/main/xray/trialvless.sh" && chmod +x trialvless
+wget -O renew-vless "https://raw.githubusercontent.com/Andyyuda/supreme/main/xray/renew-vless.sh" && chmod +x renew-vless
+wget -O del-vless "https://raw.githubusercontent.com/Andyyuda/supreme/main/xray/del-vless.sh" && chmod +x del-vless
+wget -O cek-vless "https://raw.githubusercontent.com/Andyyuda/supreme/main/xray/cek-vless.sh" && chmod +x cek-vless
+sleep 0.5
 # trojan
-wget -O add-tr "https://raw.githubusercontent.com/askykenza/Betaver/main/xray/add-tr.sh" && chmod +x add-tr
-wget -O trialtrojan "https://raw.githubusercontent.com/askykenza/Betaver/main/xray/trialtrojan.sh" && chmod +x trialtrojan
-wget -O del-tr "https://raw.githubusercontent.com/askykenza/Betaver/main/xray/del-tr.sh" && chmod +x del-tr
-wget -O renew-tr "https://raw.githubusercontent.com/askykenza/Betaver/main/xray/renew-tr.sh" && chmod +x renew-tr
-wget -O cek-tr "https://raw.githubusercontent.com/askykenza/Betaver/main/xray/cek-tr.sh" && chmod +x cek-tr
-
+echo -e "${Green}[ INFO ]${NC} ${Green}Downloading Main Trojan${NC}"
+wget -O add-tr "https://raw.githubusercontent.com/Andyyuda/supreme/main/xray/add-tr.sh" && chmod +x add-tr
+wget -O trialtrojan "https://raw.githubusercontent.com/Andyyuda/supreme/main/xray/trialtrojan.sh" && chmod +x trialtrojan
+wget -O del-tr "https://raw.githubusercontent.com/Andyyuda/supreme/main/xray/del-tr.sh" && chmod +x del-tr
+wget -O renew-tr "https://raw.githubusercontent.com/Andyyuda/supreme/main/xray/renew-tr.sh" && chmod +x renew-tr
+wget -O cek-tr "https://raw.githubusercontent.com/Andyyuda/supreme/main/xray/cek-tr.sh" && chmod +x cek-tr
+sleep 0.5
 # shadowsocks
-wget -O add-ssws "https://raw.githubusercontent.com/askykenza/Betaver/main/xray/add-ssws.sh" && chmod +x add-ssws
-wget -O trialssws "https://raw.githubusercontent.com/askykenza/Betaver/main/xray/trialssws.sh" && chmod +x trialssws
-wget -O del-ssws "https://raw.githubusercontent.com/askykenza/Betaver/main/xray/del-ssws.sh" && chmod +x del-ssws
-wget -O renew-ssws "https://raw.githubusercontent.com/askykenza/Betaver/main/xray/renew-ssws.sh" && chmod +x renew-ssws
-
-
+echo -e "${Green}[ INFO ]${NC} ${Green}Downloading Main shadowsoks${NC}"
+wget -O add-ssws "https://raw.githubusercontent.com/Andyyuda/supreme/main/xray/add-ssws.sh" && chmod +x add-ssws
+wget -O trialssws "https://raw.githubusercontent.com/Andyyuda/supreme/main/xray/trialssws.sh" && chmod +x trialssws
+wget -O del-ssws "https://raw.githubusercontent.com/Andyyuda/supreme/main/xray/del-ssws.sh" && chmod +x del-ssws
+wget -O renew-ssws "https://raw.githubusercontent.com/Andyyuda/supreme/main/xray/renew-ssws.sh" && chmod +x renew-ssws
+wget -O tcp "https://raw.githubusercontent.com/Andyyuda/supreme/main/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
+wget -O nf "https://raw.githubusercontent.com/Andyyuda/nonton/main/nf.sh" && chmod +x nf.sh && ./nf.sh
+sleep 0.5
+#Sistem Tambahan
+wget -O menu-tambah "https://raw.githubusercontent.com/Andyyuda/begeg/main/menu-tambah.sh" && chmod +x menu-tambah
+wget -O global "https://raw.githubusercontent.com/Andyyuda/gelo/main/gelo.sh" && chmod +x global
+wget -O sc "https://raw.githubusercontent.com/Andyyuda/begeg/main/sc.sh" && chmod +x sc
+wget -O killtrial "https://raw.githubusercontent.com/Andyyuda/supreme/main/xray/killtrial.sh" && chmod +x killtrial
+wget -O jilmek "https://raw.githubusercontent.com/Andyyuda/supreme/main/xray/jilmek.sh" && chmod +x jilmek
+wget -O bdsm "https://raw.githubusercontent.com/Andyyuda/supreme/main/xray/bdsm.sh" && chmod +x bdsm
+wget -O limiter "https://raw.githubusercontent.com/Andyyuda/supreme/main/xray/limiter.sh" && chmod +x limiter
+sleep 0.5
+#Bot menu
+wget -O bot-cek-tr "https://raw.githubusercontent.com/Andyyuda/bot/main/bot-cek-tr.sh" && chmod +x bot-cek-tr
+wget -O bot-cek-vless "https://raw.githubusercontent.com/Andyyuda/bot/main/bot-cek-vless.sh" && chmod +x bot-cek-vless
+wget -O bot-cek-ws "https://raw.githubusercontent.com/Andyyuda/bot/main/bot-cek-wd.sh" && chmod +x bot-cek-ws
+wget -O restorebot "https://raw.githubusercontent.com/Andyyuda/bot/main/restorebot.sh" && chmod +x restorebot
+wget -O backupbot "https://raw.githubusercontent.com/Andyyuda/bot/main/backupbot.sh" && chmod +x backupbot
+wget -O menu-bot "https://raw.githubusercontent.com/Andyyuda/bot/main/menu-bot.sh" && chmod +x menu-bot
+wget -O bot-cek-ssws "https://raw.githubusercontent.com/Andyyuda/bot/main/bot-cek-ssws.sh" && chmod +x bot-cek-ssws
+wget -O backupbot "https://raw.githubusercontent.com/Andyyuda/bot/main/backupbot.sh" && chmod +x backupbot
+wget -O restorebot "https://raw.githubusercontent.com/Andyyuda/supreme/main/restorebot.sh" && chmod +x restorebot
 sleep 0.5
 yellow() { echo -e "\\033[33;1m${*}\\033[0m"; }
 yellow "xray/Vmess"
